@@ -1,13 +1,28 @@
 <html>
   <head>
     <title>AssignmentCalendar</title>
+	<style>
+		body {
+		
+		background-color: red;
+		
+		}
+		header {
+		text-align: center;
+		
+		}
+	</style>
   </head>
   <body>
-    <p id="Instructions">Please put in your canvas eventstream, as well as your google login and password please</p>
-    <script src="AssignmentCalendarScript.js"></script>
+  <header>
+		<h1>Assignment Calendar</h1>
+  </header>
+    <p style="color:white"  id="Instructions">Please put in your canvas eventstream, as well as your google login and password please</p>
+    
   
 
 	
-    <button onclick="jsonGrabber()"Enter</button>
+    <button style="color:blue" id= "streamGrabber" onclick="jsonGrabber()">Enter</button>	
+	<script src="AssignmentCalendarScript.js"></script>
   </body>
 </html>
