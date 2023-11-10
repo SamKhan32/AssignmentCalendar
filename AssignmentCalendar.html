@@ -21,8 +21,9 @@
     
   
 
-	
-    <button style="color:blue" id= "streamGrabber" onclick="jsonGrabber()">Enter</button>	
+		<input type="file" id="fileInput" />
+
+    <button style="color:blue" id= "streamGrabber" onclick="jsonGrabber(document.getElementById('fileInput'))">Enter</button>	
 	<script src="AssignmentCalendarScript.js"></script>
   </body>
 </html>
