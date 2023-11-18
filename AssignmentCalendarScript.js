@@ -25,4 +25,5 @@
             } else {
                 console.log('No file selected.');
             }
+			
         }
